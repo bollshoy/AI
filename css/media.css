@@ -255,11 +255,23 @@
   }
 }
 
+/* 680 */
+@media screen and (max-width: 680px){
+  .about__block-text {
+    margin-left: 80px;
+  }
+
+  .examples__block-text {
+    margin-left: 60px;
+  }
+}
+
 /* 600 */
 @media screen and (max-width: 600px){
   .about__block-text {
-    margin-left: 30px;
+    margin-left: 50px;
   }
+  
 
   .footer__logo {
     margin-left: 140px;

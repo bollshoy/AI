@@ -1,0 +1,588 @@
+/* 1200 */
+@media screen and (max-width: 1200px) {
+  .contact {
+    left: 47%;
+  }
+  .hero__img img {
+    width: 650px;
+  }
+
+  .examples__content {
+    gap: 80px;
+  }
+
+  .examples__block-img {
+    width: 300px;
+  }
+
+  .advantages__img img{
+    width: 500px;
+  }
+
+  .advantages__title {
+    font-size: 42px;
+    line-height: 58px;
+  }
+}
+
+/* 1100 */
+@media screen and (max-width: 1100px){
+  .hero__img img {
+    width: 550px;
+  }
+
+  .examples__content {
+    gap: 0;
+  }
+
+  .advantages__img {
+    display: none;
+  }
+
+  .advantages__container {
+    gap: 30px;
+    flex-direction: column;
+    padding: 10px;
+  }
+}
+
+/* 992 */
+@media screen and (max-width: 992px) {
+  .hero__img img {
+      width: 450px;
+  }
+
+  .hero__title {
+    font-weight: 700;
+    font-size: 62px;
+    line-height: 42px;
+  }
+
+  .hero__text {
+    font-size: 16px;
+    line-height: 18px;
+  }
+
+  .about__text {
+    font-size: 14px;
+    line-height: 18px;
+  }
+
+  .about__content {
+    text-align: center;
+  }
+
+  .about__block-title {
+    margin-bottom: 20px;
+  }
+
+  .about__block-text {
+    margin-left: 230px;
+  }
+
+  .btn-82 span {
+    font-weight: 500;
+  }
+
+  .examples__block-img img{
+    width: 450px;
+  }
+
+  .examples__block-text {
+    font-size: 14px;
+    width: 300px;
+  }
+
+  .utilize__title {
+    padding-top: 50px;
+  }
+
+  .utilize__content {
+    justify-content: center;
+  }
+
+  .utilization__block-text {
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  .utilization__block-title {
+    font-weight: 52px;
+    line-height: 62px;
+    margin-bottom: 20px;
+    display: inline-block;
+  }
+
+  .footer__item {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+  }
+}
+
+/* 850 */
+@media screen and (max-width: 850px) {
+  .menu-btn {
+    display: block;
+  }
+  /* Меню, которое будет появляться */
+    .navbar {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      padding: 15px;
+      background: var(--bg2);
+      transform: translateX(100%);
+      transition: transform 0.5s;
+      z-index: 998;
+    }
+  
+    .navbar__list {
+      flex-direction: column;
+      gap: 10px;
+      display: flex;
+      text-align: center;
+      margin-top: 200px;
+    }
+  
+    .navbar.active {
+      transform: translateX(0);
+    }
+  
+    .navbar__item {
+      list-style-type: none;
+    }
+  .contact {
+    display: none;
+  }
+
+  .hero__container {
+      flex-direction: column;
+  }
+
+  .examples__content {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0;
+
+  }
+
+  .examples__block {
+    width: 450px;
+    margin-bottom: 50px;
+  }
+
+  .examples__block-img{
+    width: 400px;
+    margin-bottom: 10px;
+    padding: 0;
+  }
+
+  .examples__block-text {
+    margin-left: 60px;
+  }
+
+  .examples__block-title {
+    margin-left: 100px;
+  }
+
+  .finance {
+    margin-left: 150px;
+  }
+
+  .utilization__block-title {
+    font-size: 42px;
+    line-height: 52px;
+  }
+
+  .utilization__block-text {
+    font-size: 14px;
+    line-height: 16px;
+  }
+
+  .future__content {
+    justify-content: center;
+    align-items: center;
+  }
+
+  .footer__list,
+  .footer__contact {
+    display: none;
+  }
+
+  .footer__logo {
+    margin-left: 250px;
+  }
+
+}
+
+/* 800 */
+@media screen and (max-width: 800px) {
+  .about__block-text {
+    margin-left: 130px;
+  }
+}
+
+/* 768 */
+@media screen and (max-width: 768px) {
+  .about__text {
+    text-wrap: balance;
+    width: 500px;
+  }
+
+  .utilization__block {
+    padding: 100px;
+  }
+
+  .utilization__block-title {
+    font-size: 30px;
+    line-height: 40px;
+  }
+
+  .footer__logo {
+    margin-left: 230px;
+  }
+
+  .navbar__list {
+    top: 10%;
+  }
+
+  .footer__logo {
+    margin-left: 180px;
+  }
+}
+
+/* 600 */
+@media screen and (max-width: 600px){
+  .about__block-text {
+    margin-left: 30px;
+  }
+
+  .footer__logo {
+    margin-left: 140px;
+  }
+
+}
+
+/* 576 */
+@media screen and (max-width: 576px) {
+  .advantages__content {
+    margin: 0;
+  }
+
+  .slider__title {
+    font-size: 48px;
+    line-height: 52px;
+  }
+
+  .utilize__title {
+    font-size: 42px;
+    line-height: 52px;
+  }
+
+  .utilization__title {
+    font-size: 42px;
+    line-height: 42px;
+    margin: 0;
+    padding: 0;
+  }
+}
+
+/* 500 */
+@media screen and (max-width: 500px) {
+  .about__text {
+    width: 470px;
+  }
+
+  .about__block-title {
+    font-size: 28px;
+    line-height: 32px;
+    position: relative;
+    right: 5%;
+  }
+  .about__block-text {
+    position: relative;
+    right: 8%;
+  }
+
+  .examples__title {
+    font-size: 52px;
+    line-height: 48px;
+  }
+
+  .footer__logo {
+    margin-left: 90px;
+  }
+}
+
+/* 490 */
+@media screen and (max-width: 490px) {
+  .about__content {
+    position: relative;
+    right: 10%;
+  }
+
+  .about__text {
+    width: 400px;
+    font-size: 16px;
+  }
+
+  .about__block-text {
+    font-size: 14px;
+    line-height: 16px;
+  }
+
+  .about__block-title {
+    font-size: 28px;
+    line-height: 20px;
+  }
+
+  .footer__logo {
+    margin-left: 80px;
+  }
+}
+
+/* 450 */
+@media screen and (max-width: 450px){
+  .hero__title {
+    font-size: 58px;
+  }
+  .about__block-title {
+    right: 0;
+    left: 8.5%;
+  }
+
+  .about__block-text {
+    right: 0;
+    left: 5%;
+    width: 400px;
+  }
+
+  .advantages__block-text {
+    width: 400px;
+  }
+
+  .utilize__block-title {
+    position: relative;
+    left: 5%;
+  }
+
+  .utilize__text {
+    width: 380px;
+    padding: 5px;
+  }
+
+  .footer__logo {
+    margin-left: 65px;
+  }
+}
+/* 390 */
+@media screen and (max-width: 390px) {
+  .navbar__list {
+    position: relative;
+    top: -5%;
+  }
+
+  .hero__title {
+    font-size: 48px;
+  }
+
+  .hero__img img {
+    width: 380px;
+  }
+
+  .about__text {
+    font-size: 14px;
+    width: 300px;
+  }
+
+  .about__title h2 {
+    font-size: 48px;
+    line-height: 52px;
+  }
+
+  .about__block {
+    margin-left: 30px;
+  }
+
+  .about__block-text {
+    width: 300px;
+    left: 1%;
+  }
+
+  .about__block-title {
+    left: 5%;
+    line-height: 28px;
+  }
+
+  .examples__block {
+    width: 310px;
+    position: relative;
+    right: 15%;
+  }
+
+  .examples__title {
+    font-size: 48px;
+    line-height: 42px;
+  }
+
+  .examples__block-img{
+    width: 300px;
+    margin-left: 70px;
+  }
+
+  .examples__block-text {
+    margin-left: 70px;
+  }
+
+  .advantages__block-text {
+    width: 350px;
+  }
+
+  .slider__title {
+    font-size: 28px;
+    margin-left: 0;
+    line-height: 32px;
+  }
+
+  .utilize__block-title {
+    margin-left: 50px;
+  }
+
+  .utilize__block-title span {
+    font-size: 18px;
+    line-height: 22px;
+  }
+
+  .utilize__title {
+    font-size: 32px;
+    line-height: 38px;
+  }
+
+  .utilize__text {
+    font-size: 14px;
+    line-height: 16px;
+    width: 350px;
+  }
+
+  .utilization__title {
+    font-size: 28px;
+    line-height: 32px;
+    margin: 0;
+    padding: 0;
+  }
+
+  .footer__logo {
+    margin-left: 30px;
+  }
+}
+
+/* 320 */
+@media screen and (max-width: 320px){
+
+  .navbar__list {
+    left: 0%;
+  }
+
+  .hero__title {
+    font-size: 42px;
+  }
+
+  .hero__img img {
+    width: 300px;
+  }
+
+  .about__text {
+    width: 280px;
+  }
+
+  .about__title h2 {
+    font-size: 42px;
+    line-height: 48px;
+  }
+
+  .about__block-title {
+    left: 5%;
+    font-size: 22px;
+  }
+
+  .about__block-text {
+    right: 5%;
+    position: relative;
+    width: 280px;
+  }
+
+  .about__block {
+    margin-left: 0;
+  }
+
+  .examples__block-img {
+    width: 250px;
+  }
+
+  .examples__block-text {
+    width: 280px;
+  }
+
+  .examples__title {
+    font-size: 42px;
+    line-height: 48px;
+  }
+
+  .slider__title {
+    font-size: 32px;
+    margin-left: 0;
+    line-height: 48px;
+  }
+
+  .advantages__block-text {
+    width: 300px;
+  }
+
+  .utilize__title {
+    position: relative;
+    right: 2%;
+  }
+
+  .utilize__text {
+    width: 280px;
+  }
+
+  .utilize__block-title {
+    left: 0;
+    position: relative;
+  }
+
+  .utilization__title {
+    font-size: 22px;
+    line-height: 28px;
+  }
+
+  .utilization__block-title {
+    font-size: 24px;
+    line-height: 32px;
+    position: relative;
+    right: 5%;
+  }
+
+  .timeline {
+    overflow-x: hidden;
+  }
+
+  .timeline__title{
+    font-size: 48px;
+    line-height: 52px;
+  }
+
+  .future__title {
+    font-size: 48px;
+    line-height: 52px;
+  }
+
+  .footer__logo {
+    margin: 0;
+  }
+}

@@ -270,7 +270,7 @@
   }
 
   .examples__block-text {
-    margin-left: 60px;
+    margin-left: 70px;
   }
 
   .future__block {
@@ -399,14 +399,13 @@
     width: 360px;
   }
   .about__block-title {
-    left: 5%;
+    left: 10%;
     position: relative;
-    margin: 0;
   }
 
   .about__block-text {
     right: 0;
-    left: 5%;
+    left: 10%;
     width: 400px;
   }
 
@@ -419,6 +418,10 @@
   
   .examples__block-title {
     margin-left: 120px;
+  }
+
+  .examples__block-text {
+    margin-left: 70px;
   }
 
   .finance {
@@ -470,6 +473,7 @@
   .about__block-text {
     width: 300px;
     inset: 0;
+    margin-left: 25px;
   }
 
   .about__block-title {
@@ -495,6 +499,14 @@
   .examples__block img {
     position: relative;
     left: 10%;
+  }
+
+  .examples__block-title {
+    margin-left: 100px;
+  }
+
+  .finance {
+    margin-left: 160px;
   }
 
   .examples__block-text {
@@ -545,6 +557,41 @@
 
   .footer__logo {
     margin-left: 30px;
+  }
+}
+
+/* 350 */
+@media screen and (max-width: 350px){
+  .hero__img img {
+    width: 320px;
+  }
+  .about__block-title {
+    inset: 0;
+  }
+
+  .about__block-text {
+    margin: 0;
+  }
+
+  .examples__block-text {
+    margin-left: 40px;
+  }
+
+  .examples__title {
+    font-size: 32px;
+    line-height: 42px;
+  }
+
+  .utilize__text {
+    width: 300px;
+  }
+
+  .utilize__block-title {
+    margin-left: 20px;
+  }
+
+  .footer__logo {
+    margin-left: 20px;
   }
 }
 

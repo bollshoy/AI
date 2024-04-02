@@ -84,13 +84,34 @@
     font-weight: 500;
   }
 
-  .examples__block-img img{
+  .examples__content {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+  }
+  
+  .examples__block {
     width: 450px;
+    margin-bottom: 50px;
+  }
+
+  .examples__block-img {
+    width: 400px;
+    margin-bottom: 10px;
+    padding: 0;
   }
 
   .examples__block-text {
-    font-size: 14px;
-    width: 300px;
+    margin-left: 50px;
+  }
+
+  .examples__block-title {
+    margin-left: 90px;
+  }
+
+  .finance {
+    margin-left: 150px;
   }
 
   .utilize__title {
@@ -125,35 +146,37 @@
   .menu-btn {
     display: block;
   }
+
   /* Меню, которое будет появляться */
-    .navbar {
-      position: fixed;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      padding: 15px;
-      background: var(--bg2);
-      transform: translateX(100%);
-      transition: transform 0.5s;
-      z-index: 998;
-    }
-  
-    .navbar__list {
-      flex-direction: column;
-      gap: 10px;
-      display: flex;
-      text-align: center;
-      margin-top: 200px;
-    }
-  
-    .navbar.active {
-      transform: translateX(0);
-    }
-  
-    .navbar__item {
-      list-style-type: none;
-    }
+  .navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding: 15px;
+    background: var(--bg2);
+    transform: translateX(100%);
+    transition: transform 0.5s;
+    z-index: 998;
+  }
+
+  .navbar__list {
+    flex-direction: column;
+    gap: 10px;
+    display: flex;
+    text-align: center;
+    margin-top: 200px;
+  }
+
+  .navbar.active {
+    transform: translateX(0);
+  }
+
+  .navbar__item {
+    list-style-type: none;
+  }
+
   .contact {
     display: none;
   }
@@ -162,35 +185,12 @@
       flex-direction: column;
   }
 
-  .examples__content {
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 0;
-
-  }
-
-  .examples__block {
-    width: 450px;
-    margin-bottom: 50px;
-  }
-
-  .examples__block-img{
-    width: 400px;
-    margin-bottom: 10px;
-    padding: 0;
-  }
-
-  .examples__block-text {
-    margin-left: 60px;
+  .about__block-text {
+    margin-left: 160px;
   }
 
   .examples__block-title {
     margin-left: 100px;
-  }
-
-  .finance {
-    margin-left: 150px;
   }
 
   .utilization__block-title {
@@ -224,6 +224,10 @@
   .about__block-text {
     margin-left: 130px;
   }
+
+  .finance {
+    margin-left: 170px;
+  }
 }
 
 /* 768 */
@@ -234,7 +238,7 @@
   }
 
   .about__block-text {
-    margin-left: 90px;
+    margin-left: 120px;
   }
 
   .utilization__block {
@@ -255,7 +259,7 @@
   }
 
   .footer__logo {
-    margin-left: 180px;
+    margin-left: 200px;
   }
 }
 
@@ -267,11 +271,6 @@
 
   .examples__block-text {
     margin-left: 60px;
-  }
-
-  .future__block-title {
-    text-align: center;
-    text-wrap: balance;
   }
 
   .future__block {
@@ -293,8 +292,24 @@
 
 /* 576 */
 @media screen and (max-width: 576px) {
+  .about__text{
+    width: 480px;
+  }
+  
+  .about__block-text {
+    margin-left: 0px;
+  }
   .advantages__content {
     margin: 0;
+  }
+
+  .examples__block img{
+    margin-left: 20px;
+  }
+
+  .examples__title {
+    font-size: 62px;
+    line-height: 68px;
   }
 
   .slider__title {
@@ -313,6 +328,10 @@
     margin: 0;
     padding: 0;
   }
+
+  .footer__logo {
+    margin-left: 100px;
+  }
 }
 
 /* 500 */
@@ -324,12 +343,14 @@
   .about__block-title {
     font-size: 28px;
     line-height: 32px;
-    position: relative;
-    right: 5%;
   }
+
   .about__block-text {
     position: relative;
-    right: 8%;
+    right: 5%;
+    font-size: 14px;
+    line-height: 16px;
+    width: 450px;
   }
 
   .examples__title {
@@ -354,11 +375,6 @@
     font-size: 16px;
   }
 
-  .about__block-text {
-    font-size: 14px;
-    line-height: 16px;
-  }
-
   .about__block-title {
     font-size: 28px;
     line-height: 20px;
@@ -371,31 +387,49 @@
 
 /* 450 */
 @media screen and (max-width: 450px){
+    * {
+        outline: 1px solid green !important;
+      }
   .hero__title {
-    font-size: 58px;
+    font-size: 48px;
+  }
+
+  .hero__img img{
+    width: 400px;
+  }
+
+  .about__text {
+    width: 360px;
   }
   .about__block-title {
-    right: 0;
     left: 5%;
+    position: relative;
+    margin: 0;
   }
 
   .about__block-text {
     right: 0;
-    left: 0%;
+    left: 5%;
     width: 400px;
   }
 
   .examples__block-img {
-    margin-left: 20px;
+    margin-left: 90px;
+    width: 320px;
+    position: relative;
+    left: 10%;
+  }
+  
+  .examples__block-title {
+    margin-left: 120px;
+  }
+
+  .finance {
+    margin-left: 180px;
   }
 
   .advantages__block-text {
     width: 400px;
-  }
-
-  .utilize__block-title {
-    position: relative;
-    left: 5%;
   }
 
   .utilize__text {
@@ -404,7 +438,7 @@
   }
 
   .footer__logo {
-    margin-left: 65px;
+    margin-left: 55px;
   }
 }
 /* 390 */
@@ -419,7 +453,7 @@
   }
 
   .hero__img img {
-    width: 380px;
+    width: 350px;
   }
 
   .about__text {
@@ -438,7 +472,7 @@
 
   .about__block-text {
     width: 300px;
-    left: 1%;
+    inset: 0;
   }
 
   .about__block-title {
@@ -459,20 +493,29 @@
 
   .examples__block-img{
     width: 300px;
-    margin-left: 70px;
+  }
+
+  .examples__block img {
+    position: relative;
+    left: 10%;
   }
 
   .examples__block-text {
-    margin-left: 70px;
+    margin-left: 50px;
   }
 
   .advantages__block-text {
-    width: 350px;
+    width: 330px;
   }
 
   .slider__title {
     font-size: 28px;
     margin-left: 0;
+    line-height: 32px;
+  }
+
+  .utilization__block-title {
+    font-size: 28px;
     line-height: 32px;
   }
 
@@ -497,7 +540,7 @@
   }
 
   .utilization__title {
-    font-size: 28px;
+    font-size: 27px;
     line-height: 32px;
     margin: 0;
     padding: 0;
@@ -539,7 +582,7 @@
 
   .about__block-text {
     inset: 0;
-    margin-left: 30px;
+    /* margin-left: 30px; */
     position: relative;
     width: 280px;
   }

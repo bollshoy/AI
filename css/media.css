@@ -387,9 +387,6 @@
 
 /* 450 */
 @media screen and (max-width: 450px){
-    * {
-        outline: 1px solid green !important;
-      }
   .hero__title {
     font-size: 48px;
   }

@@ -579,7 +579,6 @@
 
   .about__block-text {
     inset: 0;
-    /* margin-left: 30px; */
     position: relative;
     width: 280px;
   }

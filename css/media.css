@@ -250,6 +250,19 @@
     line-height: 40px;
   }
 
+  .examples__block img {
+    margin-bottom: 20px;
+    margin-left: 20px;
+  }
+
+  .examples__block-title {
+    margin-left: 120px;
+  }
+
+  .finance {
+    margin-left: 170px;
+  }
+
   .footer__logo {
     margin-left: 230px;
   }
@@ -620,12 +633,12 @@
   }
 
   .about__block-title {
-    left: 5%;
+    left: 10%;
     font-size: 22px;
   }
 
   .about__block-text {
-    inset: 0;
+    left: 9%;
     position: relative;
     width: 280px;
   }
@@ -634,12 +647,17 @@
     margin-left: 0;
   }
 
+  .examples__block img {
+    left: 16%;
+  }
+
   .examples__block-img {
     width: 250px;
   }
 
   .examples__block-text {
     width: 280px;
+    margin-left: 60px;
   }
 
   .examples__title {
